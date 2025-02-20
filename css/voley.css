@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(178, 207, 207);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+section {
+    padding: 20px;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .cell {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .cell:before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: inline-block;
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    .cell:before {
+        display: block;
+    }
+
+    nav a {
+        padding: 10px 12px;
+    }
+}
+/* tabla  */
+.table{
+    display: table;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(154, 234, 234);
+    border-collapse: collapse;
+}
+
+ 
+.row{
+    display: table-row;
+}
+ 
+.cell{
+    display: table-cell;
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+/* imagenes en girl */
+.galeria{
+    margin-bottom: 2rem;
+}
+
+.galeria-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.galeria-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 5px 30px;
+}
+
+footer{
+    background-color: rgb(7, 6, 2);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Aplicar formato al formulario */
+.formularioregistro{
+    width: 500px;
+    background-color: rgb(29, 32, 206);
+    color: aliceblue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Aplicar estilo al título */
+.titulo{
+    font-size: 18pt;
+    margin-bottom: 25px;
+}
+
+.controles{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(222, 246, 247);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* Aplciar estilo a grupos */
+.grupo{
+    padding: 25px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.radio{
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.boton{
+    width: 150px;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: rgb(46, 96, 98);
+    font-weight: bold;
